@@ -1,0 +1,63 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+}
+
+
+.kservice {
+    background: #1a1c1e;
+    padding: 40px 35px 35px;
+}
+
+.kservice:hover {
+    background: #ff4040;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: center!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.kservice:hover:before {
+    opacity: .102;
+}
+
+.kservice:before {
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 140px;
+    background: #fff;
+    opacity: .02;
+    z-index: -1;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #ff4040;
+    color: #fff;
+    text-shadow: none;
+}
+
